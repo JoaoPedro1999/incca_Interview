@@ -16,7 +16,8 @@ Hi! If you wanna work with us, you gotta solve this first. Let's see what you've
 4. Solving everything is a bonus :)
 5. When you finish this test, send an e-mail containing the repository link and the salary expectations to <qualidade@incca.com.br>
 6. This test's instructions should be enough.
-7. Happy Coding!
+7. you have until the date 25/05
+8. Happy Coding!
 
 ### General
 
