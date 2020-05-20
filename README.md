@@ -23,7 +23,7 @@ Hi! If you wanna work with us, you gotta solve this first. Let's see what you've
 
 ### Frontend
 
-Using your favorite programming language:
+Using your favorite programming language and framework, lib and others:
 
 1. **Create an application.**
 -  1.1 create a name for application.
