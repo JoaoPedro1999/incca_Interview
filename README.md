@@ -32,7 +32,7 @@ Using your favorite programming language and framework, lib and others:
 -  1.4 use git-hub API.
 
 2. **Application details**
-Screen should receive the user th rough an input and a button to access the repositories of this user, and when clicking on the repository, issues of the specific repository should appear.
+Screen should receive the user through an input and a button to access the repositories of this user, and when clicking on the repository, issues of the specific repository should appear.
 - 2.1. screen should receive a user and add it to the main screen and saved on localstorage but he must enter the next repositories screen.
   - 2.1.1. you can remove users recorded on the local storage
 - 2.2. Repository screen should list the repository and when clicking on the repository you should go to one with details of this repository.
