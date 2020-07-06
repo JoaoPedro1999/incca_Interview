@@ -16,8 +16,7 @@ Hi! If you wanna work with us, you gotta solve this first. Let's see what you've
 4. Solving everything is a bonus :)
 5. When you finish this test, send an e-mail containing the repository link and the salary expectations to <qualidade@incca.com.br>
 6. This test's instructions should be enough.
-7. you have until the date 25/05
-8. Happy Coding!
+7. Happy Coding!
 
 ### General
 
@@ -28,10 +27,12 @@ Using your favorite programming language and framework, lib and others:
 1. **Create an application.**
 -  1.1 create a name for application.
 -  1.2 create logo and design and color combination.
--  1.3 the application can have 3 pages.
+-  1.3 the application can have 4 pages.
 - 
 
 2. **Application details**
+
+The application will need a screen where it will register the user and his password with the fields full name email and password
 The screen should receive the user through an entry and a button to access the transaction screen
 2.1. The screen should receive an input to inform the value (and have validation if the user typed an incorrect character), also an input with the name of the transaction and should have an inputSelect where it will inform if the transaction is of the income or outcome type, and a save button (when clicked will clear the screen for next entries) and finally a balance button that will advance to the next screen
 2.2. The balance sheet must contain all the names and their respective titles, all the outcomes and their respective titles and a total showing the entries and exits and the balance.
