@@ -29,26 +29,33 @@ Using your favorite programming language and framework, lib and others:
 -  1.1 create a name for application.
 -  1.2 create logo and design and color combination.
 -  1.3 the application can have 3 pages.
--  1.4 use git-hub API.
+- 
 
 2. **Application details**
-Screen should receive the user through an input and a button to access the repositories of this user, and when clicking on the repository, issues of the specific repository should appear.
-- 2.1. screen should receive a user and add it to the main screen and saved on localstorage but he must enter the next repositories screen.
-  - 2.1.1. you can remove users recorded on the local storage
-- 2.2. Repository screen should list the repository and when clicking on the repository you should go to one with details of this repository.
-<br>Obs. **Leave the instructions on how to execute your project and be ready to execute it on the return of the interview ok, good luck**
+The screen should receive the user through an entry and a button to access the transaction screen
+2.1. The screen should receive an input to inform the value (and have validation if the user typed an incorrect character), also an input with the name of the transaction and should have an inputSelect where it will inform if the transaction is of the income or outcome type, and a save button (when clicked will clear the screen for next entries) and finally a balance button that will advance to the next screen
+2.2. The balance sheet must contain all the names and their respective titles, all the outcomes and their respective titles and a total showing the entries and exits and the balance.
+<br> Obs. **
+
+ Leave instructions on how to run your project and be ready to do it on return from the interview ok, good luck
 
 
 ### Backend
 
-_I know, I know... It looks easy compared to the frontend challenge; but don't be fooled! We expect **more** from your answers in here! We will evaluate **how** you answer, and your answer's organization and structure!_
+In the backend in NodeJs language, I need to do all the logical part of these transactions, if it is possible to create tables of users and transactions, validate if the user is logged in the system,
+and remember, you cannot make exits if there is no balance, if the balance is less than the exit value, trigger an error message warning that you have no balance, it is desirable to use typescript, but it can also be in javascript which will also be valid
+
+_I know, I know ... It seems easy compared to the frontend challenge; but don't be fooled! We expect ** more ** of your responses here! We will evaluate ** how ** you respond and the organization and structure of your response! _
 
 Answer the following questions:
-- Suppose you're working with 3 people on a project. What would be **the** ideal software development process?
+- Suppose you are working with 3 people on a project. What would be the ** ideal ** software development process?
 
-- How do you think an entity relationship diagram for _Instagram_ would be like?
 
-- Now that you have imagined the ER diagram, **how** would you build _Instagram_ from scratch?
+- How do you think an entity relationship diagram would be for _Instagram_?
+
+- Now that you have imagined the ER diagram, ** how ** would you create _Instagram_ from scratch?
+
+
 
 That's it! Thanks for doing this test!
 
