@@ -51,6 +51,9 @@ $ cd frontend
 ### Install the dependencies
 $ yarn install
 
+#### To run in local mode, change the archive src/services/api.ts
+  baseURL: 'http://localhost:3333'
+
 ### Run the application in development mode
 $ yarn start
 
