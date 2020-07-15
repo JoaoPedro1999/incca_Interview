@@ -1,0 +1,6 @@
+[submodule "incfinances-frontend"]
+	path = incfinances-frontend
+	url = https://github.com/JoaoPedro1999/incfinances-frontend.git
+[submodule "incfinances-server"]
+	path = incfinances-server
+	url = https://github.com/JoaoPedro1999/incfinances-server.git

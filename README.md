@@ -1,63 +1,75 @@
 <p align="center">
-<img src="/LogoOfficial.png" width="300" >
+<img src="logo.png" width="300" >
 </p>
 
 ## Incca interview
 
-### Intro
+## IncFinances
 
-Hi! If you wanna work with us, you gotta solve this first. Let's see what you've got!
+Financial transaction management application
 
-### Instructions
+## Requisites for running the Back End
 
-1. This test should be forked, worked on, and then commited to Github, with every comment in **english**.
-2. Every applicant should solve **all** the general questions.
-3. A candidate must resolve the activities that have been proposed.
-4. Solving everything is a bonus :)
-5. When you finish this test, send an e-mail containing the repository link and the salary expectations to <qualidade@incca.com.br>
-6. This test's instructions should be enough.
-7. Happy Coding!
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
 
-### General
+## Running the Back End (server)
+### Deployed at: [Deploy](http://157.245.252.101/)
 
-### Frontend
+### Clone this repository
+$ git clone https://github.com/JoaoPedro1999/incfinances-server.git
 
-Using your favorite programming language and framework, lib and others:
+### Go to the server folder
+$ cd server
 
-1. **Create an application.**
--  1.1 create a name for application.
--  1.2 create logo and design and color combination.
--  1.3 the application can have 4 pages.
-- 
+### Create a Docker Container
 
-2. **Application details**
+### Configure database options
 
-The application will need a screen where it will register the user and his password with the fields full name email and password
-The screen should receive the user through an entry and a button to access the transaction screen
-2.1. The screen should receive an input to inform the value (and have validation if the user typed an incorrect character), also an input with the name of the transaction and should have an inputSelect where it will inform if the transaction is of the income or outcome type, and a save button (when clicked will clear the screen for next entries) and finally a balance button that will advance to the next screen
-2.2. The balance sheet must contain all the names and their respective titles, all the outcomes and their respective titles and a total showing the entries and exits and the balance.
-<br> Obs. **
+### Copy the ormconfig.example.json and change to ormconfig.json
 
- Leave instructions on how to run your project and be ready to do it on return from the interview ok, good luck
+### Run the migrations
+$ yarn typeorm migration:run
 
+### Install the dependencies
+$ yarn
 
-### Backend
+### Run the application in development mode
+$ yarn dev:server
 
-In the backend in NodeJs language, I need to do all the logical part of these transactions, if it is possible to create tables of users and transactions, validate if the user is logged in the system,
-and remember, you cannot make exits if there is no balance, if the balance is less than the exit value, trigger an error message warning that you have no balance, it is desirable to use typescript, but it can also be in javascript which will also be valid
+### The server will start at port: 3333 - go to <http: // localhost: 3333>
 
-_I know, I know ... It seems easy compared to the frontend challenge; but don't be fooled! We expect ** more ** of your responses here! We will evaluate ** how ** you respond and the organization and structure of your response! _
+## Running the FrontEnd
+### Deployed at: [Deploy](https://incfinances.vercel.app/)
 
-Answer the following questions:
-- Suppose you are working with 3 people on a project. What would be the ** ideal ** software development process?
+### Clone this repository
+$ git clone https://github.com/JoaoPedro1999/incfinances-frontend.git
 
+### Go to the frontend folder
+$ cd frontend
 
-- How do you think an entity relationship diagram would be for _Instagram_?
+### Install the dependencies
+$ yarn install
 
-- Now that you have imagined the ER diagram, ** how ** would you create _Instagram_ from scratch?
+### Run the application in development mode
+$ yarn start
 
+## Tecnologias
 
+The following tools were used in the development of the IncFinances application:
 
-That's it! Thanks for doing this test!
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-🚀
+## Questions
+
+To check the answers for the questions, visit: https://www.notion.so/joaopedrobeckland/Perguntas-Questions-8c3382f6841c4291a3f187d1f5c852ee
+
+## Developer
+
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/28880525?s=400&u=d81c22a8b60e75b36a01a52597036a650bfdd9aa&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>João Pedro Beck Land</b></sub>
+
+[![Gmail Badge](https://img.shields.io/badge/-joaopedrobeckland@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joaopedrobeckland@gmail.com)](mailto:joaopedrobecklandgmail.com)
