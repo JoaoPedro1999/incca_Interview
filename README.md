@@ -11,7 +11,7 @@ Financial transaction management application
 ## Requisites for running the Back End
 
 Before you begin, you will need to have the following tools installed on your machine:
-[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 
 ## Running the Back End (server)
 ### Deployed at: [Deploy](http://157.245.252.101/)
